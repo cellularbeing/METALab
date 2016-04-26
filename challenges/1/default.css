@@ -1,3 +1,12 @@
+/*
+	Ivan Chacon
+	META+Lab Challenge 1 : Floats & Positioning 
+	April 20, 2016
+	
+	NOTE: not all classes have a corresponding CSS block, some were resused.
+*/
+
+
 .wrapper {
 	color: #000000;
     width: 1000px;
@@ -18,7 +27,7 @@
     width: 400px;
     height: 75px;
 	background: #4A90E2;	
-	color: #ffffff;
+	color: #4A4A4A;
 	display: inline-block;
 	float: left;
 	clear: none;
@@ -27,7 +36,7 @@
     width: 50px;
     height: 50px;
 	background: #4A90E2;	
-	color: #ffffff;
+	color: #4A4A4A;
 	display: inline-block;
 	float: left;
 	clear: none;
@@ -46,8 +55,8 @@
 .b01 {
     width: 50px;
     height: 50px;
-	background: #000000;	
-	color: #000000;
+	background: #4A4A4A;	
+	color: #4A4A4A;
 	display: inline-block;
 	float: left;
 	clear: none;
@@ -72,17 +81,6 @@
 	float: left;
 	clear: none;
 }
-
-.b04 {
-    width: 50px;
-    height: 50px;
-	background: #000000;	
-	color: #000000;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
 
 .c {
     width: 200px;
@@ -109,16 +107,6 @@
     height: 50px;
 	background: #D8D8D8;
 	color: #D8D8D8;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.c02 {
-    width: 50px;
-    height: 50px;
-	background: #000000;
-	color: #000000;
 	display: inline-block;
 	float: left;
 	clear: none;
