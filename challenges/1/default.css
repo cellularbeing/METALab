@@ -205,6 +205,46 @@
 	clear: none;
 }
 
+.j01{
+    width: 50px;
+    height: 50px;
+	background: #7ED321;
+	color: #7ED321;
+	display: inline-block;
+	float: left;
+	clear: none;
+}
+
+.j02{
+    width: 50px;
+    height: 50px;
+	background: #FFFFFF;
+	color: #FFFFFF;
+	display: inline-block;
+	float: left;
+	clear: none;
+}
+
+.j03{
+    width: 300px;
+    height: 50px;
+	background: #D8D8D8;
+	color: #D8D8D8;
+	display: inline-block;
+	float: left;
+	clear: none;
+}
+
+.j04{
+    width: 300px;
+    height: 50px;
+	background: #417505;
+	color: #417505;
+	display: inline-block;
+	float: left;
+	clear: none;
+}
+
 .k{
     width: 200px;
     height: 400px;
