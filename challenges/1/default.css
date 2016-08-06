@@ -2,389 +2,140 @@
 	Ivan Chacon
 	META+Lab Challenge 1 : Floats & Positioning 
 	April 20, 2016
-	
-	NOTE: not all classes have a corresponding CSS block, some were resused.
+	//revision- July 2016
 */
 
 
 .wrapper {
+	margin:0 auto;
 	color: #000000;
     width: 1000px;
 	height: 800px;
 }
 
-.a {
-    width: 400px;
-    height: 200px;
-	background: #4A90E2;	
-	color: #ffffff;
-	display: inline-block;
+.common {
 	float: left;
-	clear: none;
 }
 
-.a00 {
-    width: 400px;
-    height: 75px;
-	background: #4A90E2;	
-	color: #4A4A4A;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.a01 {
-    width: 50px;
-    height: 50px;
-	background: #4A90E2;	
-	color: #4A4A4A;
-	display: inline-block;
-	float: left;
-	clear: none;
+.commonR {
+	float: right;
 }
 
-.b {
-    width: 200px;
-    height: 200px;
-	background: #F8E71C;	
-	color: #F8E71C;
-	display: inline-block;
-	float: left;
-	clear: none;
+.row{
+	width: 600px;
+	height: 100px;
 }
 
-.b01 {
-    width: 50px;
-    height: 50px;
-	background: #4A4A4A;	
-	color: #4A4A4A;
-	display: inline-block;
-	float: left;
-	clear: none;
+.rowL{
+	height:50px;
+	width:400px;
 }
 
-.b02 {
-    width: 150px;
-    height: 50px;
-	background: #F8E71C;	
-	color: #F8E71C;
-	display: inline-block;
-	float: left;
-	clear: none;
+.row3A{
+	height:400px;
+	width:200px;
 }
 
-.b03 {
-    width: 200px;
-    height: 100px;
-	background: #F8E71C;	
-	color: #F8E71C;
-	display: inline-block;
-	float: left;
-	clear: none;
+.row3B{
+	height:400px;
+	width:300px;
 }
 
-.c {
-    width: 200px;
-    height: 200px;
-	background: #D8D8D8;
-	color: #D8D8D8;
-	display: inline-block;
-	float: left;
-	clear: none;
+.thinBar{
+	height:50px;
+	width:300px;
 }
 
-.c00 {
-    width: 200px;
-    height: 75px;
-	background: #D8D8D8;
-	color: #D8D8D8;
-	display: inline-block;
-	float: left;
-	clear: none;
+.squareL {
+	width:200px;
+	height:200px;
 }
 
-.c01 {
-    width: 75px;
-    height: 50px;
-	background: #D8D8D8;
-	color: #D8D8D8;
-	display: inline-block;
-	float: left;
-	clear: none;
+.squareM {
+	width:100px;
+	height:100px;
+}
+.squareS {
+	width:50px;
+	height:50px;
+}
+.squareS2 {
+	width:100px;
+	height:50px;
 }
 
-.d {
-    width: 100px;
-    height: 200px;
-	background: #CE1126;
-	color: #CE1126;
-	display: inline-block;
-	float: left;
-	clear: none;
+/*---COLORS---*/
+.red{
+	background-color: #CE1126;
+}
+.yellow{
+	background-color: #F8E71C;
+}
+.grey{
+	background-color: #D8D8D8;
+}
+.lightBlue {
+	background-color: #50E3C2;
+}
+.greenL {
+	background-color: #7ED321;
+}
+.greenD {
+	background-color: #417505;
+}
+.black {
+	background-color: #4A4A4A;
+}
+.orange {
+	background-color: #F5A623;
+}
+.violet {
+	background-color: #BD10E0;
+}
+.white {
+	background-color: #FFFFFF;
 }
 
-.e {
-    width: 100px;
-    height: 200px;
-	background: #4A4A4A;
-	color: #4A4A4A;
-	display: inline-block;
-	float: left;
-	clear: none;
+#blueRect.common{
+	height: 200px;
+	width: 400px;
+	background-color: #4A90E2;
 }
 
-.e01 {
-    width: 100px;
-    height: 100px;
-	background: #50E3C2;
-	color: #50E3C2;
-	display: inline-block;
-	float: left;
-	clear: none;
+#largeYellow.common.squareL {
+	background-color: #F8E71C;
 }
-.f {
-    width: 600px;
-    height: 100px;
-	background: #F5A623;
-	color: #F5A623;
-	display: inline-block;
-	float: left;
-	clear: none;
+#largeGrey.common.squareL {
+	background-color: #D8D8D8;
 }
 
-.f01 {
-    width: 50px;
-    height: 50px;
-	background: #D0021B;
-	color: #D0021B;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.f02 {
-    width: 50px;
-    height: 50px;
-	background: #F8E71C;
-	color: #F8E71C;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.f03 {
-    width: 400px;
-    height: 50px;
-	background: #BD10E0;
-	color: #BD10E0;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.f04 {
-    width: 400px;
-    height: 50px;
-	background: #F5A623;
-	color: #F5A623;
-	display: inline-block;
-	float: left;
-	clear: none;
+#redRec.common.red {
+	width:100px;
+	height:200px;
 }
 
-.f05 {
-    width: 200px;
-    height: 50px;
-	background: #417505;
-	color: #417505;
-	display: inline-block;
-	float: left;
-	clear: none;
+#greenRec.common.greenD{
+	width:200px;
+	height:50px;
+	background-color: #417505;
 }
 
-.g{
-    width: 400px;
-    height: 100px;
-	background: #9013FE;
-	color: #9013FE;
-	display: inline-block;
-	float: left;
-	clear: none;
+#purpleRect.common{
+	width:400px;
+	height:100px;
+	background-color: #9013FE;
 }
 
-.h{
-    width: 200px;
-    height: 400px;
-	background: #4A4A4A;
-	color: #4A4A4A;
-	display: inline-block;
-	float: left;
-	clear: none;
+#blackInGrey.squareS.black{
+	margin:75px;
 }
 
-.h00 {
-    width: 200px;
-    height: 200px;
-	background: #4A4A4A;
-	color: #4A4A4A;
-	display: inline-block;
-	float: left;
-	clear: none;
+#blackInBlue.squareS.black.common{
+	margin: 75px 50px 0px 50px;
 }
 
-.h01 {
-    width: 100px;
-    height: 100px;
-	background: #F8E71C;
-	color: #F8E71C;
-	display: inline-block;
-	float: left;
-	clear: none;
+#blackInBlue2.squareS2.black.common{
+	margin: 75px 0px 0px 0px;
 }
-
-.h02{
-    width: 100px;
-    height: 100px;
-	background: #F5A623;
-	color: #F5A623;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.h03{
-    width: 100px;
-    height: 100px;
-	background: #D8D8D8;
-	color: #D8D8D8;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.i{
-    width: 300px;
-    height: 400px;
-	background: #D00D2D;
-	color: #D00D2D;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.i00{
-    width: 50px;
-    height: 50px;
-	background: #FFFFFF;
-	color: #FFFFFF;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.i01{
-    width: 200px;
-    height: 50px;
-	background: #D00D2D;
-	color: #D00D2D;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.i02{
-    width: 300px;
-    height: 100px;
-	background: #D00D2D;
-	color: #D00D2D;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.i03{
-    width: 100px;
-    height: 100px;
-	background: #D00D2D;
-	color: #D00D2D;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-.i04{
-    width: 100px;
-    height: 100px;
-	background: #FFFFFF;
-	color: #FFFFFF;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-
-.j{
-    width: 300px;
-    height: 400px;
-	background: #50E3C2;
-	color: #50E3C2;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.j01{
-    width: 50px;
-    height: 50px;
-	background: #7ED321;
-	color: #7ED321;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.j02{
-    width: 50px;
-    height: 50px;
-	background: #FFFFFF;
-	color: #FFFFFF;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.j03{
-    width: 300px;
-    height: 50px;
-	background: #D8D8D8;
-	color: #D8D8D8;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.j04{
-    width: 300px;
-    height: 50px;
-	background: #417505;
-	color: #417505;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.k{
-    width: 200px;
-    height: 400px;
-	background: #4A4A4A;
-	color: #4A4A4A;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-.k00 {
-    width: 200px;
-    height: 200px;
-	background: #D8D8D8;
-	color: #D8D8D8;
-	display: inline-block;
-	float: left;
-	clear: none;
-}
-
-
 
 
