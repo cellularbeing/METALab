@@ -2,7 +2,7 @@
 	Ivan Chacon
 	META+Lab Challenge 1 : Floats & Positioning 
 	April 20, 2016
-	//revision- July 2016
+	//revision- July -August 2016
 */
 
 
@@ -138,4 +138,10 @@
 	margin: 75px 0px 0px 0px;
 }
 
+#blackInYellow.squareS.black.commonR{
+	margin-top: 150px;
+}
 
+#whiteInRedCenter.squareM.white.common{
+	margin:100px;
+}
